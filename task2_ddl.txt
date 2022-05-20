@@ -1,0 +1,7 @@
+CREATE TABLE `exchangeratesproject.rates.exchangerates`
+(
+  date DATE OPTIONS(description="date"),
+  USD_EUR FLOAT64 OPTIONS(description="1 US Dollar to Euro rate"),
+  GBP_EUR FLOAT64 OPTIONS(description="1 British Pound to Euro rate"),
+  CHF_EUR FLOAT64 OPTIONS(description="1 Swiss Franc to Euro rate")
+);
